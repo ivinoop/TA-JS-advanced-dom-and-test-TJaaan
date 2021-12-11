@@ -1,0 +1,94 @@
+// Header
+
+header {
+  padding: 2rem 0;
+  & h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+}
+
+// Board
+
+.board-container {
+  background-color: $board-bg;
+  min-height: 400px;
+  max-width: 1300px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  & .notice-card {
+    padding: 2rem;
+    background-color: $notice-bg;
+    border: 1px solid black;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 0.8rem;
+    margin: 0 1rem;
+    & span {
+      font-size: 0.7rem;
+      position: relative;
+      bottom: 12px;
+      left: 20px;
+      padding: 0.3rem 0.5rem;
+      background-color: $category-bg;
+      border: none;
+      border-radius: 0.8rem;
+    }
+    & p {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+// Add Notice
+
+.add-notice {
+  padding-top: 3rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+// Form
+
+.form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.form-control {
+  & input, & select {
+    display: block;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0.6rem 0.4rem;
+    border-radius: 0.7rem;
+    outline: 0;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+  }
+}
+
+button {
+  display: block;
+  width: 100%;
+  background-color: $notice-bg;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  border-radius: 0.8rem;
+}
+
