@@ -23,10 +23,9 @@ header {
     background-color: $notice-bg;
     border: 1px solid black;
     color: #fff;
-    font-family: 'Poppins', sans-serif;
     border: none;
     border-radius: 0.8rem;
-    margin: 0 1rem;
+    margin: 1rem;
     & span {
       font-size: 0.7rem;
       position: relative;
@@ -40,6 +39,7 @@ header {
     & p {
       margin-top: 2rem;
       font-size: 1.2rem;
+      font-family: 'Poppins', sans-serif;
     }
   }
 }
@@ -65,14 +65,13 @@ h3 {
 }
 
 .form-control {
-  & input, & select {
+  & input {
     display: block;
     width: 100%;
     margin: 1rem auto;
     padding: 0.6rem 0.4rem;
     border-radius: 0.7rem;
-    outline: 0;
-    border: 1px solid black;
+    border: 2px solid black;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
   }

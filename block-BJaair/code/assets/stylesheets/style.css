@@ -126,10 +126,9 @@ header h1 {
   background-color: #1C8D73;
   border: 1px solid black;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
   border: none;
   border-radius: 0.8rem;
-  margin: 0 1rem;
+  margin: 1rem;
 }
 
 .board-container .notice-card span {
@@ -146,6 +145,7 @@ header h1 {
 .board-container .notice-card p {
   margin-top: 2rem;
   font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .add-notice {
@@ -164,14 +164,13 @@ h3 {
   margin: 0 auto;
 }
 
-.form-control input, .form-control select {
+.form-control input {
   display: block;
   width: 100%;
   margin: 1rem auto;
   padding: 0.6rem 0.4rem;
   border-radius: 0.7rem;
-  outline: 0;
-  border: 1px solid black;
+  border: 2px solid black;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
 }
