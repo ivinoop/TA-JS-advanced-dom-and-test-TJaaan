@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notice Board</title>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/code/assets/stylesheets/style.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Notice Board 📌</h1>
+  </header>
+  <main>
+    <!-- Notice Board -->
+    <section class="board">
+      <ul class="board-container flex flex-wrap jcc aic">
+        <!-- <li class="notice-card">
+          <span>Category of notice</span>
+          <p>Title of notice</p>
+        </li>
+        <li class="notice-card">
+          <span>Category of notice</span>
+          <p>Title of notice</p>
+        </li>
+        <li class="notice-card">
+          <span>Category of notice</span>
+          <p>Title of notice</p>
+        </li> -->
+      </ul>
+    </section>
+    <!-- Add Notice -->
+    <section class="add-notice">
+      <div class="container">
+        <h3>Add Notice</h3>
+        <fieldset>
+          <form class="form">
+            <div class="form-control">
+              <input type="text" id="title" placeholder="Enter notice title" name="title">
+              <input type="text" id="category" placeholder="Enter notice category" name="category">
+            </div>
+            <!-- <div class="form-control">
+              <select name="category" id="category">
+                <option value="">--Select a category--</option>
+                <option value="study">Study</option>
+                <option value="sports">Sports</option>
+                <option value="Music">Music</option>
+                <option value="Vacation">Vacation</option>
+              </select>
+            </div> -->
+            <button>Add</button>
+          </form>
+        </fieldset>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.jcc {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aic {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tac {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.board-container {
+  background-color: #3944F7;
+  min-height: 400px;
+  max-width: 1300px;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.board-container .notice-card {
+  padding: 2rem;
+  background-color: #1C8D73;
+  border: 1px solid black;
+  color: #fff;
+  border: none;
+  border-radius: 0.8rem;
+  margin: 1rem;
+}
+
+.board-container .notice-card span {
+  font-size: 0.7rem;
+  position: relative;
+  bottom: 12px;
+  left: 20px;
+  padding: 0.3rem 0.5rem;
+  background-color: #562f2f;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+.board-container .notice-card p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.add-notice {
+  padding-top: 3rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 0.6rem 0.4rem;
+  border-radius: 0.7rem;
+  border: 2px solid black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background-color: #1C8D73;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  border-radius: 0.8rem;
+}
+/*# sourceMappingURL=style.css.map */
