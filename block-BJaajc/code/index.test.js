@@ -49,17 +49,17 @@ test('webdeveloper is not a palindrome', () => {
 // getCircumference
 
 test('Circumference of circle for radius 7 is 43', () => {
-  expect(functions.getCircumference(4)).toBe('The circumference is 43');
+  expect(functions.getCircumference(7)).toBe('The circumference is 43');
 });
 
 test('Circumference of circle for radius 14 is 87', () => {
-  expect(functions.getCircumference(4)).toBe('The circumference is 87');
+  expect(functions.getCircumference(14)).toBe('The circumference is 87');
 });
 
 test('Circumference of circle for radius 45 is 282', () => {
-  expect(functions.getCircumference(4)).toBe('The circumference is 282');
+  expect(functions.getCircumference(45)).toBe('The circumference is 282');
 });
 
-test('Area of circle for radius 4 is 50', () => {
-  expect(functions.getCircumference(4)).toBe('The circumference is 50');
+test('Area of circle for radius 7 is 154', () => {
+  expect(functions.getArea(7)).toBe('The area is 153');
 });
